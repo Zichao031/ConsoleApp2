@@ -1,8 +1,8 @@
 namespace _02UnderstandingTypes;
 
-public class GreetByTime
+public static class GreetByTime
 {
-    public void Greeting(DateTime time)
+    public static void Greeting(DateTime time)
     {
         DayOfWeek dayOfWeek = time.DayOfWeek;
         int hour = time.Hour;

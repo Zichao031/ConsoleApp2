@@ -8,8 +8,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="hw2\PracticeString\" />
-    </ItemGroup>
-
 </Project>

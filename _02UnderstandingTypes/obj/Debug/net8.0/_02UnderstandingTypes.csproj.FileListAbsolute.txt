@@ -12,3 +12,4 @@
 /Users/xiaozichao/RiderProjects/ConsoleApp2/_02UnderstandingTypes/obj/Debug/net8.0/_02UnderstandingTypes.pdb
 /Users/xiaozichao/RiderProjects/ConsoleApp2/_02UnderstandingTypes/obj/Debug/net8.0/_02UnderstandingTypes.genruntimeconfig.cache
 /Users/xiaozichao/RiderProjects/ConsoleApp2/_02UnderstandingTypes/obj/Debug/net8.0/ref/_02UnderstandingTypes.dll
+/Users/xiaozichao/RiderProjects/ConsoleApp2/_02UnderstandingTypes/obj/Debug/net8.0/_02UnderstandingTypes.sourcelink.json

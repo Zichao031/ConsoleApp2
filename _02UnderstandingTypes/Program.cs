@@ -2,6 +2,7 @@
 using _02UnderstandingTypes;
 using System.Collections;
 using _02UnderstandingTypes.hw2;
+using _02UnderstandingTypes.hw2.PracticeString;
 
 // // // ReadLine(), WriteLine(), Write()
 // CreateHackerName.GetHackerName();
@@ -183,22 +184,22 @@ using _02UnderstandingTypes.hw2;
 // // you define, rather than the current time. Once you're confident the program works
 // // correctly, you can substitute DateTime.Now for your variable (or keep your variable and just
 // // assign DateTime.Now as its value, which is often a better approach)
-// GreetByTime gbt = new GreetByTime();
+
 // // now
-// gbt.Greeting(DateTime.Now);
+// GreetByTime.Greeting(DateTime.Now);
 // // morning
 // DateTime morning = new DateTime(2024, 2, 20, 8, 0, 0);
-// gbt.Greeting(morning);
+// GreetByTime.Greeting(morning);
 // // Afternoon
 // DateTime afternoon = new DateTime(2024, 2, 20, 14, 0, 0);
-// gbt.Greeting(afternoon);
+// GreetByTime.Greeting(afternoon);
 // // Evening
 // DateTime evening = new DateTime(2024, 2, 20, 20, 0, 0);
-// gbt.Greeting(evening);
+// GreetByTime.Greeting(evening);
 // // Evening
 // DateTime night = new DateTime(2024, 2, 20, 0, 0, 0);
-// gbt.Greeting(night);
-//
+// GreetByTime.Greeting(night);
+
 // // Question 6
 // // Write a program that prints the result of counting up to 24 using four different increments.
 // // First, count by 1s, then by 2s, by 3s, and finally by 4s.
@@ -212,9 +213,6 @@ using _02UnderstandingTypes.hw2;
 // // 0,3,6,9,12,15,18,21,24
 // // 0,4,8,12,16,20,24
 // CountInFourWays.Count();
-//
-
-
 
 
 // ArrayList arr = new ArrayList();
@@ -286,4 +284,42 @@ using _02UnderstandingTypes.hw2;
 
 
 // Practice String:
-// 1. 
+// 1. Write a program that reads a string from the console, reverses its letters and prints the
+// result back at the console.
+// Write in two ways
+// Convert the string to char array, reverse it, then convert it to string again
+// Print the letters of the string in back direction (from the last to the first) in a for-loop
+// string s1 = "sample";
+// ReverseString.Way1(s1);
+// ReverseString.Way2(s1);
+// string s2 = "24tvcoi92";
+// ReverseString.Way1(s2);
+// ReverseString.Way2(s2);
+
+// 2. Write a program that reverses the words in a given sentence without changing the
+// punctuation and spaces
+// Use the following separators between the words: . , : ; = ( ) & [ ] " ' \ / ! ? (space).
+// All other characters are considered part of words, e.g. C++, a+b, and a77 are
+// considered valid words.
+// The sentences always start by word and end by separator.
+// string str = "C# is not C++, and PHP is not Delphi!";
+// ReverseWordsInString.Run(str);
+// ReverseWordsInString.CompleteReverse(str);
+
+// 3. Write a program that extracts from a given text all palindromes, e.g. “ABBA”, “lamal”, “exe”
+// and prints them on the console on a single line, separated by comma and space.Print all
+// unique palindromes (no duplicates), sorted
+// string textPalindromes = "Hi,exe? ABBA! Hog fully a string: ExE. Bob";
+// TextAllPalindromes.Run(textPalindromes);
+
+// 4. Write a program that parses an URL given in the following format:
+// [protocol]://[server]/[resource]
+// The parsing extracts its parts: protocol, server and resource.
+// The [server] part is mandatory.
+// The [protocol] and [resource] parts are optional.
+string url1 = "https://www.apple.com/iphone";
+ParseURL.Run(url1);
+string url2 = "ftp://www.example.com/employee";
+ParseURL.Run(url2);
+string url3 = "https://google.com";
+ParseURL.Run(url3);
